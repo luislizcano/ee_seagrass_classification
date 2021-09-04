@@ -4,7 +4,7 @@
 
 **Description:** This script classify dense seagrass beds in satellite images (from Sentinel and Landsat sensors) using machine learning (Support Vector Machine). The outputs can be exported to EE Assets. All the training and validation matrices and accuracies can be saved as an Excel file in your working directory.<br/>
 
-**NOTE:** The classifications will use only the aerosol (if available), blue, green, red and Blue/Green (from Depth Invariant Index) bands.<br/>
+**NOTE:** The classifier will use only the aerosol (if available), blue, green, red and Blue/Green (from Depth Invariant Index) bands.<br/>
 
 By Luis Lizcano-Sandoval<br/>
 College of Marine Science, University of South Florida<br/>
