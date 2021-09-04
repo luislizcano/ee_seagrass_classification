@@ -1,6 +1,7 @@
 # Semi-Automated Seagrass Classification Using Earth Engine Python API
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fluislizcano%2Fee_seagrass_classification&count_bg=%23969696&title_bg=%23FFD812&icon=github.svg&icon_color=%23E7E7E7&title=Visits&edge_flat=false)](https://hits.seeyoufarm.com)
-[![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fluislizcano%2Fee_seagrass_classification%2F&count_bg=%23F3CE00&title_bg=%23868282&icon=github.svg&icon_color=%23E7E7E7&title=Visits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luislizcano/ee_seagrass_classification/blob/main/jupyter-notebooks/seagrass_classification_script.ipynb)
+[![GPL license](https://img.shields.io/badge/License-GPL-red)](http://perso.crans.org/besson/LICENSE.html)
 
 **Description:** This script classify dense seagrass beds in satellite images (from Sentinel and Landsat sensors) using machine learning (Support Vector Machine). The outputs can be exported to EE Assets. All the training and validation matrices and accuracies can be saved as an Excel file in your working directory.<br/>
 
