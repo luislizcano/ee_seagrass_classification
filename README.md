@@ -6,7 +6,6 @@
 
 **NOTE:** The classifications will use only the aerosol (if available), blue, green, red and Blue/Green (from Depth Invariant Index) bands.<br/>
 
-Script modified from https://github.com/samsammurphy/gee-atmcorr-S2<br/>
 By Luis Lizcano-Sandoval<br/>
 College of Marine Science, University of South Florida<br/>
 luislizcanos@usf.edu<br/>
