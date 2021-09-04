@@ -25,16 +25,16 @@ Updated: 09/03/2021<br/>
 ## Demo:
 
 ### Sentinel-2 L2A Image:
-<img src="https://raw.github.com/luislizcano/ee_seagrass_classification/main/img/img-sentinel2.png" width="800">
+<img src="https://github.com/luislizcano/ee_seagrass_classification/raw/main/img/img-sentinel2.png" width="600">
 
 ### Cloud Mask:
-<img src="https://raw.github.com/luislizcano/ee_seagrass_classification/main/img/img-cloud-mask.png" width="800">
+<img src="https://github.com/luislizcano/ee_seagrass_classification/raw/main/img/img-cloud-mask.png" width="600">
 
 ### Land Mask:
-<img src="https://raw.github.com/luislizcano/ee_seagrass_classification/main/img/img-land-mask.png" width="800">
+<img src="https://github.com/luislizcano/ee_seagrass_classification/raw/main/img/img-land-mask.png" width="600">
 
 ### Depth Mask:
-<img src="https://raw.github.com/luislizcano/ee_seagrass_classification/main/img/img-depth-mask.png" width="800">
+<img src="https://github.com/luislizcano/ee_seagrass_classification/raw/main/img/img-depth-mask.png" width="600">
 
 ### Classified Image:
-<img src="https://raw.github.com/luislizcano/ee_seagrass_classification/main/img/img-classified.png" width="800">
+<img src="https://github.com/luislizcano/ee_seagrass_classification/raw/main/img/img-classified.png" width="600">
