@@ -199,7 +199,7 @@ def landMaskFunction(image,geometry):
 # Output:
 # ee.Image with three bands B1B2, B1B3, B2B3
 # =============================================================================
-def DIV(image, scale, sand):
+def DII(image, scale, sand):
     
     ## Select the bands for the DIV
     bands = ['B1','B2','B3']
