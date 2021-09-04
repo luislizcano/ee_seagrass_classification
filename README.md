@@ -1,17 +1,41 @@
-# Seagrass Classification in Google Earth Engine
+# Semi-Automated Seagrass Classification Using Earth Engine Python API
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fluislizcano%2Fee_seagrass_classification&count_bg=%23969696&title_bg=%23FFD812&icon=github.svg&icon_color=%23E7E7E7&title=Visits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
-**Description:** This script allows to do atmospheric correction for list of images (or individual images) of Sentinel-2 and Landsat sensors, especifically for images over coastal or oceanic areas, using the GEE Python API in Jupyter Notebook. Some atmospheric correction settings can be modified in the *parameters.py* module to work with images over inland areas (See line 36 in that module). The script does AC automatically by providing the right satellite mission, list of image ID's, and a specific GEE Asset to export processed images to your personal GEE account.<br/>
+**Description:** This script classify dense seagrass beds in satellite images (from Sentinel and Landsat sensors) using machine learning (Support Vector Machine). The outputs can be exported to EE Assets. All the training and validation matrices and accuracies can be saved as an Excel file in your working directory.<br/>
 
-More sensors can be added by modifying the *mission_specifics.py* and *parameters.py* modules to properly work with the available collections in GEE and [Py6S](https://github.com/robintw/Py6S/blob/master/Py6S/Params/wavelength.py).<br/>
+**NOTE:** The classifications will use only the aerosol (if available), blue, green, red and Blue/Green (from Depth Invariant Index) bands.<br/>
 
 Script modified from https://github.com/samsammurphy/gee-atmcorr-S2<br/>
 By Luis Lizcano-Sandoval<br/>
 College of Marine Science, University of South Florida<br/>
 luislizcanos@usf.edu<br/>
-Created: 10/30/2020<br/>
-Updated: 09/02/2021
+Updated: 09/03/2021<br/>
 
-## Sentinel-2 Image Before:
-<img src="https://raw.github.com/luislizcano/gee-atmcorr-py6s/main/jupyter_notebooks/toa.png" width="800">
+## **Workflow:**
+
+1. Import required images, collections, data, etc.
+2. Mask clouds, land, and deep areas >20m
+3. Apply Depth-Invariant Index (band-ratios)
+4. Sample bands: B1, B2, B3, B4, B/G
+5. Train models and classify (SVM)
+6. Get confusion matrices and accuracies
+7. Export output to EE Assets (.tiff)
+8. Save matrices in local computer (.xlxs)
+
+## Demo:
+
+### Sentinel-2 L2A Image:
+<img src="https://raw.github.com/luislizcano/ee_seagrass_classification/main/img/img-sentinel2.png" width="800">
+
+### Cloud Mask:
+<img src="https://raw.github.com/luislizcano/ee_seagrass_classification/main/img/img-cloud-mask.png" width="800">
+
+### Land Mask:
+<img src="https://raw.github.com/luislizcano/ee_seagrass_classification/main/img/img-land-mask.png" width="800">
+
+### Depth Mask:
+<img src="https://raw.github.com/luislizcano/ee_seagrass_classification/main/img/img-depth-mask.png" width="800">
+
+### Classified Image:
+<img src="https://raw.github.com/luislizcano/ee_seagrass_classification/main/img/img-classified.png" width="800">
