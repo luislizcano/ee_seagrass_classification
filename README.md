@@ -12,8 +12,8 @@ College of Marine Science, University of South Florida<br/>
 luislizcanos@usf.edu<br/>
 Updated: 09/03/2021<br/>
 
-Script also published in: <br/>
-Lizcano-Sandoval, L., Anastasiou, C., Montes, E., Raulerson, G., Sherwood, E. & Muller-Karger, F. Seagrass distribution and changes (1990–2021) in coastal waters off West-Central Florida, USA. (Submitted to Remote Sensing of Environment)
+### Sugested citation: <br/>
+Lizcano-Sandoval, L., Anastasiou, C., Montes, E., Raulerson, G., Sherwood, E. & Muller-Karger, F. (2022) Seagrass distribution, areal cover, and changes (1990–2021) in coastal waters off West-Central Florida, USA. Estuarine, Coastal and Shelf Science 279: 108134. DOI: [10.1016/j.ecss.2022.108134](https://www.sciencedirect.com/science/article/pii/S0272771422003924)
 
 ## **Workflow:**
 
